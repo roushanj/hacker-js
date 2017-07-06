@@ -1,0 +1,33 @@
+{
+  "name": "hacker-js",
+  "version": "1.0.0",
+  "description": "A public web app to learn and implement javascript skill",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roushanj/hacker-js.git"
+  },
+  "author": "roushan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roushanj/hacker-js/issues"
+  },
+  "homepage": "https://github.com/roushanj/hacker-js#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.0",
+    "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
