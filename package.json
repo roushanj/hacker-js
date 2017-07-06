@@ -22,9 +22,13 @@
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "body-parser": "^1.17.2",
+    "bower": "^1.8.0",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
     "express-validator": "^3.2.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.2.1",
+    "semantic-ui": "^2.2.10",
     "webpack": "^3.0.0"
   },
   "devDependencies": {
