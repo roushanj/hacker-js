@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/roushanj/hacker-js#readme",
   "dependencies": {
-    
     "babel": "^6.23.0",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
@@ -29,14 +28,17 @@
     "cookie-parser": "^1.4.3",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
     "express-messages": "^1.0.1",
     "express-session": "^1.15.3",
     "express-validator": "^3.2.0",
+    "handlebars": "^4.0.10",
     "mongodb": "^2.2.29",
     "mongoose": "^4.11.1",
     "passport": "^0.3.2",
     "passport-http": "^0.3.0",
     "passport-local": "^1.0.0",
+    "secure-compare": "^3.0.1",
     "semantic-ui": "^2.2.10",
     "webpack": "^3.0.0"
   },
