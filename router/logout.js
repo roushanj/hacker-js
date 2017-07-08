@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 
-router.get('/bye', function(req, res, next) {
+router.get('/', function(req, res, next) {
 
 	res.render('logout');
 });
