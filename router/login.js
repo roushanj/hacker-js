@@ -4,7 +4,7 @@ var passport= require('passport');
 var LocalStrategy= require('passport-local').Strategy;
 var User=require('../model/user')
 
-router.get('/new', function(req, res, next) {
+router.get('/', function(req, res, next) {
 
 	res.render('login');
 });
@@ -44,8 +44,8 @@ passport.deserializeUser(function(id, done) {
 });
 
 
-router.post('/new',
-  passport.authenticate('local', {succesRedirect:"/", failureRedirect:"/registration"}),
+router.post('/home',
+  passport.authenticate('local', {succesRedirect:"/", failureRedirect:"/login"}),
   function(req, res) {
 
   	res.redirect('/');
