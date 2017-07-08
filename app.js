@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var path = require('path');
 var expressValidator = require('express-validator');
 var cookieParser= require('cookie-parser');
+var exphbs = require('express-handlebars');
 var flash= require('connect-flash');
 var session= require('express-session');
 var passport= require('passport');
@@ -25,8 +26,8 @@ var app = express();
 //default layouts DIR
 
 app.set('views',path.join(__dirname, 'views'));
-app.set('view engine', 'html');
-app.engine('html', require('ejs').renderFile);
+app.set('view engine','handlebars');
+app.engine('handlebars', exphbs({defaultLayout: null}));
 
 app.use(express.static(path.join(__dirname, ('semantic/dist'))));
 
